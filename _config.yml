@@ -1,0 +1,33 @@
+title: Jekyll Tailwind
+description: A Jekyll setup using Tailwind CSS
+baseurl: '/'
+markdown: kramdown
+
+cta_link: '#'
+cta_icon: download
+cta_text: Call to Action
+
+# Footer Info
+footer_license: License info goes here
+footer_links:
+  - title: Privacy Policy
+    url: '#'
+  - title: Disclaimers
+    url: '#'
+  - title: Contact
+    url: '#'
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: 'default'
+
+include: ['_pages']
+
+exclude:
+  - '*.config.js'
+  - 'package*.json'
+  - assets
+  - node_modules
+  - vendor

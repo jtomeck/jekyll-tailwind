@@ -1,0 +1,7 @@
+- name: Sample Link
+  url: '#'
+- name: Sample Link
+  url: '#'
+- name: Sample Link
+  url: '#'
+  new_tab: true
